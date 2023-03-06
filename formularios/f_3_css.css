@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline 8px dashed blue;
+    letter-spacing: 2px;
+}
+
+fieldset {
+    border: 4px dashed blue;
+}
+
+legend {
+    background-color: blue;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+form {
+    width: 40%;
+}
+
+span {
+    text-decoration: underline;
+}
+
+td {
+    padding: 7px;
+}
+
+.final {
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+}

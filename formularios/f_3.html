@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="f_3_css.css">
+    <title>ej3</title>
+</head>
+<body>
+    <h1>Encuesta televisiva</h1>
+    <form action="/">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="edad"><span>Edad</span></label> <input type="text" id="edad" name="edad" size="5">
+                    </td>
+                    <td colspan="2">
+                        <label for="habitantes"><span>Habitantes de la casa</span></label>
+                    <select name="habitantes" id="habitantes">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 o más</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sexo"><span>Sexo</span></label>
+                        <input type="radio" id="Hombre" name="Hombre" value="Hombre">
+                        <label for="Hombre">Hombre</label>
+                        <input type="radio" id="Mujer" name="Mujer" value="Mujer"> <label for="Mujer">Mujer</label>
+                    </td>
+                    <td colspan="2">
+                        <label for="Televisores"><span>Televisores en casa</span></label>
+                        <input type="radio" id="0" name="0" value="0">
+                        <label for="0">0</label>
+                        <input type="radio" id="1" name="1" value="1">
+                        <label for="1">1</label>
+                        <input type="radio" id="2" name="2" value="2">
+                        <label for="2">2</label>
+                        <input type="radio" id="3" name="3" value="3">
+                        <label for="3">3</label>
+                        <input type="radio" id="4" name="4" value="4">
+                        <label for="4">4</label>
+                        <label>o más</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label><span>Lugares en los que hay television en casa:</span></label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="Comedor" name="Comedor">
+                        <label for="Comedor">Comedor</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Cocina" name="Cocina">
+                        <label for="Cocina">Cocina</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Baño" name="Baño">
+                        <label for="Baño">Baño</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="DormitorioP" name="DormitorioP">
+                        <label for="DormitorioP">Dormitorio padres</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="DormitorioH" name="DormitorioH">
+                        <label for="DormitorioH">Dormitorio hijos</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Otros" name="Otros">
+                        <label for="Otros">Otros</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="final">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

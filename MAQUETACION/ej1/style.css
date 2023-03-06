@@ -1,0 +1,180 @@
+/*
+
+DISEÑO FIJO
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+nav {
+    float: left;
+    width: 260px;
+}
+
+main {
+    margin-left: 280px;
+}
+
+#columnas {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#columnas li {
+    float: left;
+    width: 33%;
+} */
+
+/* 
+
+DISEÑO ELASTICO
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+#wrapper {
+    width: 60em;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+nav {
+    float: left;
+    width: 16em;
+}
+
+main {
+    width: 44em;
+    margin-left: 16em;
+}
+
+#columnas {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#columnas li {
+    float: left;
+    width: 33%;
+}  */
+
+
+@media (min-width: 600px) and (max-width: 1200px){
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        text-align: center;
+    }
+    
+    #wrapper {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    #principal {
+        float: left;
+        width: 25%;
+    }
+    
+    main {
+        width: 75%;
+        margin-left: 25%;
+    }
+    #contenido {
+        width: 75%;
+        margin-left: 25%;
+    }
+    
+    #columnas {
+        list-style-type: none;
+        padding: 0px;
+    }
+    
+    #columnas li {
+        float: left;
+        width: 33%;
+    } 
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        text-align: center;
+    }
+    
+    #wrapper {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    nav {
+        float: left;
+        width: 33%;
+    }
+    
+    main {
+        float: left;
+        width: 33%;
+        margin: 0 auto;
+    }
+
+    #contenido {
+        width: 33%;
+        float: left;
+    }
+    #columnas {
+        margin-left: 40px;
+        list-style-type:disc;
+    }
+
+    #columnas li {
+        float: none;
+        width: 100%;
+    }
+}

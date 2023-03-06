@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+h1 {
+    color: #A52A2A;
+}
+
+form {
+    width: 40%;
+    border: 1px solid #A52A2A;
+    padding: 10px 80px 10px 10px;
+}
+
+label {
+    color: #A52A2A;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #A52A2A;
+}
+
+input[type=submit], [type=reset] {
+    background-color: #A52A2A;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px;
+    margin: 2px;
+}
